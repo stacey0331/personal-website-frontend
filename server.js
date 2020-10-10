@@ -4,7 +4,7 @@ const cors = require('cors');
 const db = require('./db');
 const formRouter = require('./routes/form-router.js');
 const app = express();
-const port = process.event.PORT || 8000;
+const port = process.env.PORT || 8000;
 const path = require('path');
 
 app.use(bodyParser.urlencoded({ extended: true }));
