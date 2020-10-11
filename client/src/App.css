@@ -371,6 +371,10 @@ input:focus, textarea:focus {
   textarea {
     width: 300px;
   }
+
+  #loadingText {
+    left: 25%;
+  }
 }
 
 
