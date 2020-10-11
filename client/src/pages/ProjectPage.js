@@ -51,10 +51,9 @@ const ProjectPage = ({ match }) => {
                 <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
                     <button class={project.githubLink ? 'githubButton' : 'unlinkedButton githubButton' }>View on GitHub<img class="buttonIcon" src={githubIcon} alt=" "/></button>
                 </a>
-
-                <h2>App Explained</h2>
-                {appExplained}
             </p>
+            <h2>App Explained</h2>
+            {appExplained}
             <br /><br /><br /><br />
         </>
     )
