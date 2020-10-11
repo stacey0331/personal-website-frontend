@@ -53,7 +53,7 @@ const ProjectPage = ({ match }) => {
                 </a>
             </p>
             <h2>App Explained</h2>
-            {appExplained}
+            {appExplained} 
             <br /><br /><br /><br />
         </>
     )
