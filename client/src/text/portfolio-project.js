@@ -18,7 +18,8 @@ const projects = [
         author: "Stacey Lee",
         date: "2020/9",
         githubLink: "",
-        vidLink: ""
+        vidLink: "",
+        dirDownload: ""
     },
     {
         name: "econ101",
@@ -35,7 +36,8 @@ const projects = [
         author: "Stacey Lee (PM, Developer), Natalie Nguyen (UI/UX Designer)",
         date: "2019/11",
         githubLink: "https://github.com/stacey0331/Econ101",
-        vidLink: "https://www.youtube.com/embed/8oESBflYLZI"
+        vidLink: "https://www.youtube.com/embed/8oESBflYLZI",
+        dirDownload: "Econ101"
     },
     {
         name: "trig",
@@ -52,7 +54,8 @@ const projects = [
         author: "Stacey Lee (Unit Circle), Jungbin Lee(Pythagorean theorem)",
         date: "2019/5",
         githubLink: "https://github.com/stacey0331/TrigCrashCourse",
-        vidLink: "https://www.youtube.com/embed/ozG1Ea_cEAg"
+        vidLink: "https://www.youtube.com/embed/ozG1Ea_cEAg",
+        dirDownload: "TrigCrashCourse"
     }
 ];
 
