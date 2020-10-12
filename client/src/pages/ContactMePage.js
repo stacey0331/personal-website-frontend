@@ -18,10 +18,14 @@ const ContactMePage = () => {
 
       if (name && email && message) {
          api.createResponse(time, name, email, message)
-         .then((res) => {
+         .then(res => {
             if (alert('Message sent successfully')) {}
             else window.location.reload();
-         });
+         })
+         .catch(err => {
+            if (alert('Send message failed')) {}
+            else window.location.reload();
+         })
       } else {
          alert('Please fill out all the required fields and try again.');
       }

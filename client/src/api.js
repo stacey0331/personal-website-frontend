@@ -5,7 +5,7 @@ const api = axios.create({
 });
 
 export const createResponse = (time, name, email, message) => {
-    const promise = api.post('/newResponse', {
+    var promise = api.post('/newResponse', {
         time: time,
         name: name,
         email: email, 
@@ -13,9 +13,11 @@ export const createResponse = (time, name, email, message) => {
     })
         .then(() => {
             console.log('Client: response created');
+            
         })
-        .catch(() => {
+        .catch(err => {
             console.log('Client: cannot create response');
+            promise = err;
         });
     return promise;
 }
