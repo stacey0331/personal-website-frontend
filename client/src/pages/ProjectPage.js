@@ -17,7 +17,7 @@ const ProjectPage = ({ match }) => {
     if (project.vidLink) {
         appExplained =  <iframe title="App Explained" width="560" height="315" src={project.vidLink} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     } else {
-        appExplained = "Oops! The author is still making this video :) watch videos in other projects"
+        appExplained = <p>Oops! The author is still making this video :) watch videos in other projects</p>
     }
 
     return (

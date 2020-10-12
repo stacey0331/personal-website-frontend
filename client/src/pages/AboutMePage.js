@@ -66,10 +66,10 @@ const AboutMePage = () => (
             <iframe title="16 shots performance" width="560" height="315" src="https://www.youtube-nocookie.com/embed/ohYnd45sodM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         
             <br/><br/>
-            <p>I also just enjoty learning new skills in general! </p>
+            <p>I also just enjoy learning new skills in general! </p>
             <p>Some of the other skills I have are: </p>
-            <p>Doing nails , photography, hair coloring, etc. </p>
-            <p>( follow my nails ig page <a class="coloredLink" href="https://www.instagram.com/nailsbystaceyl/" target="_blank" rel="noopener noreferrer">here</a> —> <a href="https://www.instagram.com/nailsbystaceyl/" ><img class="buttonIcon" src={igIcon} alt="Insta" target="_blank" rel="noopener noreferrer"/></a> )</p>
+            <p>Doing nails, photography, hair coloring, etc. </p>
+            <p>( follow my nails instagram page <a class="coloredLink" href="https://www.instagram.com/nailsbystaceyl/" target="_blank" rel="noopener noreferrer">here</a> —> <a href="https://www.instagram.com/nailsbystaceyl/" ><img class="buttonIcon" src={igIcon} alt="Insta" target="_blank" rel="noopener noreferrer"/></a> )</p>
             
             <br/><br/>
             <div class="grid-container-2">
