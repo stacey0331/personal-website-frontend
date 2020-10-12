@@ -1,9 +1,13 @@
-## Server
+# Stacey's Website
+Stacey believes this website would help her future employees or friends to better understand her experiences :)
 
-This folder contains the backend of the website. 
+This website is created by Stacey independently, from coding the FE/BE to UI design.
 
-To connect to MongoDB, simply type this in your terminal (and don't exit with Ctrl+C!)
+## Visuals
+![ App snapsot ](snapshots/cross-device-testing.png) 
 
-```npm start```
+## Support
+If you need help accessing the website through the url or locally, please don't hestitate to contact staceyleetsaihsun@gmail.com.
 
-Please do this step before you run "npm start" in the docs and admin folder. 
+## Project status
+This website will continue to be maintained by Stacey herself.

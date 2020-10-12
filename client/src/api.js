@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:8001/api',
+    baseURL: 'https://stacey-personal-website.herokuapp.com/api',
 });
 
 export const createResponse = (time, name, email, message) => {
