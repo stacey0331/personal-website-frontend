@@ -40,7 +40,7 @@ const ContactMePage = () => {
 
          <form>
             <label className="required" htmlFor="yourName">Your name </label><br />
-            <input placeholder="Format First Last" id="yourName" required/><br />
+            <input placeholder="Format: First Last" id="yourName" required/><br />
    
             <label className="required" htmlFor="yourEmail">Your email</label><br />
             <input type="email" placeholder="email@address.com" id="yourEmail" required/><br />
