@@ -17,5 +17,7 @@
   "bugs": {
     "url": "https://github.com/stacey0331/personal-website-frontend/issues"
   },
-  "homepage": "https://github.com/stacey0331/personal-website-frontend#readme"
+  "engines": {
+    "node": "12.x"
+  }
 }
