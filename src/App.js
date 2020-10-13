@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter, 
+  Router, 
   Switch, 
   Route
 } from 'react-router-dom';
@@ -26,7 +26,7 @@ function App() {
   });
   
   return (
-    <BrowserRouter basename={process.env.PUBLIC_UR}>
+    <Router>
       <div id="loading">
         <div id="loadingText">Loading ...</div>
       </div>
@@ -40,7 +40,7 @@ function App() {
         <Route component={NotFoundPage} />
       </Switch>
       <Footer />
-    </BrowserRouter>
+    </Router>
   );
 }
 
