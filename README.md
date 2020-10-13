@@ -4,7 +4,7 @@ Stacey believes this website would help her future employees or friends to bette
 
 This website is created by Stacey independently.
 
-This repo does not include the backend because Stacey thought hosting costs money... There is another repo that has the backend. 
+This repo does not include the backend because hosting costs money... There is another repo that has the backend. 
 
 ## Visuals
 
