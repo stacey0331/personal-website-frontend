@@ -19,5 +19,8 @@
   },
   "engines": {
     "node": "12.x"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
