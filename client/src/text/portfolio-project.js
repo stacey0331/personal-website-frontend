@@ -18,7 +18,7 @@ const projects = [
         author: "Stacey Lee",
         date: "2020/9",
         githubLink: "https://github.com/stacey0331/personal-website-local",
-        vidLink: "",
+        vidLink: "https://www.youtube.com/embed/4wsgBLqdqkk",
         dirDownload: ""
     },
     {

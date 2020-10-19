@@ -87,6 +87,14 @@ a:hover {
   outline: 0;
 }
 
+/* The navigation bar */
+#navBar {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 98;
+}
+
 /* The back to top button on the bottom right corver of some pages */
 .backToTop {
   width: 100px;
@@ -302,12 +310,6 @@ input:focus, textarea:focus {
   max-width: 300px;
   margin: 50px;
   filter: drop-shadow(20px 20px 0 #EDD9FF);
-}
-
-/* The red required symbol after each field in contact form */
-.required:after {
-  content: "  *";
-  color: red;
 }
 
 /* The text "connect with me on socials" */
