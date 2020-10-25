@@ -6,6 +6,8 @@ This website is created by Stacey independently.
 
 This repo does not include the backend because hosting costs money... There is another repo that has the backend. 
 
+The deployed site on heroku: [https://stacey-personal-website.herokuapp.com](https://stacey-personal-website.herokuapp.com).
+
 ## Visuals
 
 ![ App snapsot ](snapshots/cross-device-testing.png) 
