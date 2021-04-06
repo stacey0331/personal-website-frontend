@@ -1,5 +1,22 @@
 const projects = [
     {
+        name: "todo-plus",
+        title: "TODO + (In progress)",
+        description: "A fancy todo app. Still in progress of making it perfect.",
+        longDescription: [],
+        techUsed: [
+            "JavaScript",
+            "React",
+            "MongoDB",
+            "ESLint",
+            "Sass",
+            "Webpack"
+        ],
+        author: "Stacey Lee",
+        date: "2021/4",
+        githubLink: "https://github.com/stacey0331/todo-plus",
+    },
+    {
         name: "personal-website",
         title: "Personal Website",
         description: "This website but a little bit more complicated :)",
@@ -10,10 +27,10 @@ const projects = [
             "Also, this is my first time using a digital design tool to design the UI (I used the app called \"Sketch\"). No pencil and paper feel good XD. "
         ],
         techUsed: [
-            "React.js",
+            "JavaScript",
+            "React.js (create-react-app)",
             "HTML5",
             "CSS3",
-            "JavaScript"
         ],
         author: "Stacey Lee",
         date: "2020/9",
@@ -54,9 +71,9 @@ const projects = [
         author: "Stacey Lee (Unit Circle), Jungbin Lee(Pythagorean theorem)",
         date: "2019/5",
         githubLink: "https://github.com/stacey0331/TrigCrashCourse",
-        vidLink: "https://www.youtube.com/embed/ozG1Ea_cEAg",
+        vidLink: "",
         dirDownload: "TrigCrashCourse"
-    }
+    },
 ];
 
 export default projects;

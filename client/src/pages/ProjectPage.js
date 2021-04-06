@@ -51,6 +51,12 @@ const ProjectPage = ({ match }) => {
                     <><br />{paragraph}</>
                 ))}
                 <br/><br/>
+                <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
+                    <button class={project.githubLink ? 'githubButton' : 'unlinkedButton githubButton' } disabled={!project.githubLink}>View on GitHub<img class="buttonIcon" src={githubIcon} alt=" "/></button>
+                </a>
+
+                <br/><br/>
+                
                 {
                     // eslint-disable-next-line
                 }<a href={project.dirDownload === "Econ101" ? Econ101 : project.dirDownload === "TrigCrashCourse" ? TrigCrashCourse : ''}>
@@ -59,10 +65,6 @@ const ProjectPage = ({ match }) => {
                     </button>
                 </a>
 
-                <br/><br/>
-                <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
-                    <button class={project.githubLink ? 'githubButton' : 'unlinkedButton githubButton' } disabled={!project.githubLink}>View on GitHub<img class="buttonIcon" src={githubIcon} alt=" "/></button>
-                </a>
             </p>
             <h2>App Explained</h2>
             {appExplained} 

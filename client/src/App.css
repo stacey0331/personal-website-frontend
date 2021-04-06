@@ -223,12 +223,14 @@ a:hover {
 }
 
 .projectPreviews {
+  margin: 0 30px 50px 30px;
   margin-bottom: 50px;
 }
 
 /* The preview image of projects, on Portfolio page */
 .previewImg {
   width: 300px;
+  height: 180px;
 }
 
 /* For the portfolio project preview page and the project page */

@@ -1,9 +1,9 @@
 import React from 'react';
 const Experience = ({info}) => (
-    <div class="experienceText">
+    <div className="experienceText">
         <strong>{info.title[0]}</strong>, {info.title[1]} -- {info.title[2]}
     
-        <div class="experienceDate">
+        <div className="experienceDate">
             {info.date}
         </div>
         {info.description.map((sentence, key) => (
