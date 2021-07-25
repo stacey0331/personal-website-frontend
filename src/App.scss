@@ -1,0 +1,456 @@
+/* Quicksand is from google font, embeded link in index.html */
+  * {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+  }
+  
+  /* The main title of each page (execept home page) */
+  h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    margin: 80px 30px 50px 30px;
+  }
+  
+  h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    margin: 100px 30px 50px 30px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 10px 10px 0px;
+    text-align: left;
+  }
+  
+  p {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  
+  button {
+    border: none;
+    padding: 15px 30px 15px 30px;
+    background-color: #EDD9FF;
+    font-weight: bold;
+    display: block;
+    margin-top: 1rem;
+  }
+
+  .resumeBtn {
+    margin: auto;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  iframe {
+    margin: 3% 10% 3% 10%;
+    width: 80vw;
+    max-width: 560px;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  a:hover {
+    color: #9B00AD;
+  }
+  
+  #loading {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: block;
+    opacity: 0.7;
+    background-color: #fff;
+    z-index: 99;
+    text-align: center;
+  }
+  
+  #loadingText {
+    font-size: 25px;
+    position: absolute;
+    left: 40%;
+    top: 45%;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+  #pageTop {
+    margin-bottom: 150px;
+  }
+  
+  .noUHover:hover {
+    text-decoration: none;
+  }
+  
+  .mr-2 {
+    border: none;
+  }
+  
+  .mr-2:focus {
+    outline: 0;
+  }
+  
+  /* The navigation bar */
+  #navBar {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 98;
+  }
+  
+  /* The back to top button on the bottom right corver of some pages */
+  .backToTop {
+    width: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+  
+  /* The icon next to buttons */
+  .buttonIcon {
+    height: 25px;
+    padding-left: 5px;
+  }
+
+  .homePage {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .homeElm {
+    display: table-cell;
+    vertical-align: middle;
+    /* Home page main title */
+    .homeTitle {
+      font-size: 6vh;
+    }
+    
+    /* Home page sub title */
+    .homeSubtitle {
+      font-size: 4vh;
+      margin: 5vh;
+      margin-bottom: 0;
+    }
+    
+    /* Stacey's Avatar */
+    #avatar {
+      border-radius: 50%;
+      width: 25vh;
+      margin-bottom: 2rem;
+    }
+  }
+  
+  /* Signature image on NavBar */
+  .signature {
+    width: 110px;
+    margin-top: -15px;
+  }
+
+  .navbar-toggler-icon {
+    margin-top: -15px;
+  }
+  
+  /* Menu Items in Naviation */
+  .navItem {
+    font-family: 'Dancing Script', cursive;
+    font-size: 300%;
+    padding-bottom: 20vh;
+    padding-left: 10vw;
+    text-align: left;
+  }
+
+  .footer {
+    background-color: #EDD9FF;
+    height: 120px;
+    width: 100%;
+
+    .social {
+      width: 30px;
+      margin: 15px;
+      margin-top: 30px;
+    }
+  }
+  
+  .footerHome {
+    background-color: #EDD9FF;
+    height: 100px;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+
+    .social {
+        position: absolute;
+        width: 30px;
+        bottom: 30px;
+    }
+
+    .linkedin {
+        right: 80px;
+    }
+
+    .facebook {
+        right: 160px;
+    }
+    
+    .copyright {
+      text-align: left;
+      color: #796A7B;
+      font-size: 12px;
+      position: absolute;
+      left: 20px;
+      bottom: 20px;
+    }
+  }
+  
+  .aboutMe {
+    text-align: center;
+  }
+  
+  /* images of Stacey in the About me page */
+  .myPhoto {
+    width: 200px;
+    margin: 50px;
+  }
+  
+  /* The experience section in About me page */
+  .experienceText {
+    text-align: left;
+    margin-left: 15vw;
+    display: inline-block;
+    width: 30%;
+  }
+  
+  .experienceDate {
+    text-align: left;
+    font-size: smaller;
+    color: #4E4D4D;
+  }
+  
+  /* Illutrations in Experience section, About me page */
+  .expIll {
+    display: inline-block;
+    height: 120px;
+    width: 50%;
+    min-width: 100px;
+    margin: auto;
+    position: relative;
+    top: -70px;
+  }
+  
+  /* 2 columns grid layout */
+  .grid-container-2 {
+    display: grid;
+    grid-template-areas: 
+      'col1 col2';
+    grid-row-gap: 50px;
+    margin: 100px 20% 100px 20%;
+  }
+  
+  .interestsPic {
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  .projectPreview {
+    text-align: left;
+    display: inline-block;
+    margin: 30px;
+    width: 300px;
+  }
+  
+  .projectPreviews {
+    margin: 0 30px 50px 30px;
+    margin-bottom: 50px;
+  }
+  
+  /* The preview image of projects, on Portfolio page */
+  .previewImg {
+    width: 300px;
+    height: 180px;
+  }
+  
+  /* For the portfolio project preview page and the project page */
+  .projectText {
+    div {
+      text-align: left;
+    }
+  }
+  
+  .fields {
+    font-weight: bold;
+  }
+  
+  /* To the project's github page in project pages */
+  .githubButton {
+    width: 220px;
+    background-color: #E1E1E1;
+  }
+  
+  /* The "Go back" button from project to portfolio pahge */
+  .goBack {
+    margin: 20px;
+    text-align: left;
+  }
+  
+  .backArrow {
+    width: 35px;
+  }
+  
+  .unlinkedButton {
+    text-decoration: line-through;
+  }
+  
+  .unlinkedButton:hover {
+    text-decoration: line-through;
+  
+  }
+  
+  .coloredLink {
+    color: #9B00AD;
+    text-decoration: underline;
+  }
+  
+  .coloredLink:hover {
+    color: yellow;
+  }
+  
+  /* Contact form */
+  form {
+    display: inline-block;
+    text-align: left;
+    margin: 50px 10px 0 10px;;
+  }
+  
+  input, textarea {
+    border: 1px solid#BD74FE;
+    border-radius: 10px;
+    width: 18vw;
+    max-width: 250px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  textarea {
+    width: 27vw;
+    max-width: 300px;
+    height: 100px;
+    padding: 10px;
+  }
+  
+  input:focus, textarea:focus {
+    outline: none;
+    border: 1.5px solid yellow;
+  }
+  
+  /* The image on the side of the contact me form */
+  .contactMeImg {
+    position: relative;
+    width: 30%;
+    max-width: 300px;
+    margin: 50px;
+    filter: drop-shadow(20px 20px 0 #EDD9FF);
+  }
+  
+  /* The text "connect with me on socials" */
+  .socialsText {
+    text-align: right;
+    margin-right: 200px;
+  }
+  
+  /* Tbe "connect with me on socials" arrow */
+  .curlyArrow {
+    width: 100px;
+    transform: rotate(20deg);
+  }
+
+  // syntax: @media only screen and (min-width: 1440px) and (max-width: )
+  @media only screen and (min-width: 1441px) {
+    .homeElm {
+      #avatar {
+        margin-bottom: 6rem;
+      }
+    }
+
+    .navItem {
+      padding-bottom: 30vh;
+    }
+  }
+  
+  /* Small screen display (like mobile) */
+  @media only screen and (max-width: 570px) {
+    h1 {
+      font-size: 75px;
+      margin: 70px 30px 50px 30px;
+    }
+  
+    p {
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+  
+    .navItem {
+      padding-bottom: 18vh;
+    }
+  
+    .homeSubtitle {
+      font-size: 30px;
+      margin-bottom: 80px;
+    }
+  
+    .contactMeImg {
+      top: 0;
+      width: 300px;
+    }
+  
+    button {
+      font-size: 13px;
+    }
+  
+    .experienceText {
+      width:80%;
+      margin: 0 10px;
+    }
+  
+    .expIll {
+      margin-top: 50px;
+      margin-bottom: 100px;
+      top: 0;
+    }
+  
+    input {
+      width: 250px;
+    }
+  
+    textarea {
+      width: 300px;
+    }
+  
+    #loadingText {
+      left: 20%;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

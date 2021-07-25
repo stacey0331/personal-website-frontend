@@ -19,7 +19,7 @@ const projects = [
     {
         name: "personal-website",
         title: "Personal Website",
-        description: "This website but a little bit more complicated :)",
+        description: "This website but with some backend work :)",
         longDescription: [
             "This is the website you're seeing right now, but with a backend to deal with the \"contact me\" form",
             "It's my first web app with the React framework.",
@@ -36,7 +36,6 @@ const projects = [
         date: "2020/9",
         githubLink: "https://github.com/stacey0331/personal-website-local",
         vidLink: "https://www.youtube.com/embed/4wsgBLqdqkk",
-        dirDownload: ""
     },
     {
         name: "econ101",
@@ -54,7 +53,6 @@ const projects = [
         date: "2019/11",
         githubLink: "https://github.com/stacey0331/Econ101",
         vidLink: "https://www.youtube.com/embed/8oESBflYLZI",
-        dirDownload: "Econ101"
     },
     {
         name: "trig",
@@ -72,7 +70,6 @@ const projects = [
         date: "2019/5",
         githubLink: "https://github.com/stacey0331/TrigCrashCourse",
         vidLink: "",
-        dirDownload: "TrigCrashCourse"
     },
 ];
 

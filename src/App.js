@@ -16,7 +16,6 @@ import ProjectPage from './pages/ProjectPage';
 
 // Components
 import NavBar from './components/NavBar';
-import Footer from './components/Footer';
 
 import './App.css';
 
@@ -32,7 +31,6 @@ function App() {
       </div>
       <NavBar />
       <div id="pageTop" />
-      <br /><br /><br /><br />
       <Switch>
         <Route path="/" component={HomePage} exact/>
         <Route path="/about-me" component={AboutMePage} />
@@ -41,7 +39,6 @@ function App() {
         <Route path="/project/:name" component={ProjectPage} />
         <Route component={NotFoundPage} />
       </Switch>
-      <Footer />
     </Router>
   );
 }

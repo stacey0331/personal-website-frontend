@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectPreview from '../components/ProjectPreview';
+import Footer from '../components/Footer';
 import portfolioProject from '../text/portfolio-project';
 
 const PortfolioPage = () => (
@@ -12,6 +13,7 @@ const PortfolioPage = () => (
         <ProjectPreview project={portfolioProject[index]} img={project.name} />
       ))}
     </div>
+    <Footer />
  </>
 );
 

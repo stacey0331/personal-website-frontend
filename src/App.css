@@ -1,18 +1,18 @@
 /* Quicksand is from google font, embeded link in index.html */
 * {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   text-align: center;
 }
 
 /* The main title of each page (execept home page) */
 h1 {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 80px;
   margin: 80px 30px 50px 30px;
 }
 
 h2 {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 60px;
   margin: 100px 30px 50px 30px;
 }
@@ -34,6 +34,12 @@ button {
   padding: 15px 30px 15px 30px;
   background-color: #EDD9FF;
   font-weight: bold;
+  display: block;
+  margin-top: 1rem;
+}
+
+.resumeBtn {
+  margin: auto;
 }
 
 button:focus {
@@ -72,7 +78,11 @@ a:hover {
   position: absolute;
   left: 40%;
   top: 45%;
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
+}
+
+#pageTop {
+  margin-bottom: 150px;
 }
 
 .noUHover:hover {
@@ -109,64 +119,95 @@ a:hover {
   padding-left: 5px;
 }
 
-/* Home page main title */
-.homeTitle {
-  font-size: 6vh;
-  margin: 5vh;
+.homePage {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }
 
-/* Home page sub title */
-.homeSubtitle {
+.homeElm {
+  display: table-cell;
+  vertical-align: middle;
+  /* Home page main title */
+  /* Home page sub title */
+  /* Stacey's Avatar */
+}
+.homeElm .homeTitle {
+  font-size: 6vh;
+}
+.homeElm .homeSubtitle {
   font-size: 4vh;
   margin: 5vh;
-  margin-bottom: 18vh;
+  margin-bottom: 0;
 }
-
-/* Stacey's Avatar */
-#avatar {
+.homeElm #avatar {
   border-radius: 50%;
   width: 25vh;
-  margin: 10vh;
-  margin-bottom: 5vh;
+  margin-bottom: 2rem;
 }
 
 /* Signature image on NavBar */
 .signature {
   width: 110px;
+  margin-top: -15px;
+}
+
+.navbar-toggler-icon {
+  margin-top: -15px;
 }
 
 /* Menu Items in Naviation */
 .navItem {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 300%;
-  padding-bottom: 26vh;
+  padding-bottom: 20vh;
   padding-left: 10vw;
   text-align: left;
 }
 
 .footer {
   background-color: #EDD9FF;
+  height: 120px;
+  width: 100%;
+}
+.footer .social {
+  width: 30px;
+  margin: 15px;
+  margin-top: 30px;
+}
+
+.footerHome {
+  background-color: #EDD9FF;
   height: 100px;
   width: 100%;
+  bottom: 0;
   position: absolute;
 }
-
-.socials {
-  text-align: right;
+.footerHome .social {
+  position: absolute;
+  width: 30px;
+  bottom: 30px;
 }
-
-.social {
-  width: 7%;
-  max-width: 35px;
-  margin: 50px 20px 10px 2%;
+.footerHome .linkedin {
+  right: 80px;
 }
-
-.copyright {
+.footerHome .facebook {
+  right: 160px;
+}
+.footerHome .copyright {
   text-align: left;
   color: #796A7B;
   font-size: 12px;
   position: absolute;
-  margin: 60px 0 10px 20px;
+  left: 20px;
+  bottom: 20px;
+}
+
+.aboutMe {
+  text-align: center;
 }
 
 /* images of Stacey in the About me page */
@@ -203,10 +244,9 @@ a:hover {
 /* 2 columns grid layout */
 .grid-container-2 {
   display: grid;
-  grid-template-areas: 
-    'col1 col2';
+  grid-template-areas: "col1 col2";
   grid-row-gap: 50px;
-  margin: 0px 20% 0px 20%;
+  margin: 100px 20% 100px 20%;
 }
 
 .interestsPic {
@@ -234,7 +274,7 @@ a:hover {
 }
 
 /* For the portfolio project preview page and the project page */
-.projectText {
+.projectText div {
   text-align: left;
 }
 
@@ -264,7 +304,6 @@ a:hover {
 
 .unlinkedButton:hover {
   text-decoration: line-through;
-
 }
 
 .coloredLink {
@@ -280,11 +319,11 @@ a:hover {
 form {
   display: inline-block;
   text-align: left;
-  margin: 50px 10px 0 10px;;
+  margin: 50px 10px 0 10px;
 }
 
 input, textarea {
-  border: 1px solid#BD74FE;
+  border: 1px solid #BD74FE;
   border-radius: 10px;
   width: 18vw;
   max-width: 250px;
@@ -326,6 +365,15 @@ input:focus, textarea:focus {
   transform: rotate(20deg);
 }
 
+@media only screen and (min-width: 1441px) {
+  .homeElm #avatar {
+    margin-bottom: 6rem;
+  }
+
+  .navItem {
+    padding-bottom: 30vh;
+  }
+}
 /* Small screen display (like mobile) */
 @media only screen and (max-width: 570px) {
   h1 {
@@ -357,7 +405,7 @@ input:focus, textarea:focus {
   }
 
   .experienceText {
-    width:80%;
+    width: 80%;
     margin: 0 10px;
   }
 
@@ -380,13 +428,4 @@ input:focus, textarea:focus {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
+/*# sourceMappingURL=App.css.map */
