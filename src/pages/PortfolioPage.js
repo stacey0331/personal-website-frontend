@@ -5,6 +5,7 @@ import portfolioProject from '../text/portfolio-project';
 
 const PortfolioPage = () => (
  <>
+  <div class="portfolioPage">
     <h1>Portfolio</h1>
     <p>Here's a selection of some of my programming projects</p>
 
@@ -13,6 +14,8 @@ const PortfolioPage = () => (
         <ProjectPreview project={portfolioProject[index]} img={project.name} />
       ))}
     </div>
+  </div>
+
     <Footer />
  </>
 );

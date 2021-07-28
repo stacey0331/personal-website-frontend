@@ -28,6 +28,14 @@
     margin-left: 25%;
     margin-right: 25%;
   }
+
+  .portfolioPage {
+    min-height: 83vh;
+  }
+
+  .contactMePage {
+    min-height: 77vh;
+  }
   
   button {
     border: none;
@@ -171,6 +179,7 @@
   }
 
   .footer {
+    position: relative;
     background-color: #EDD9FF;
     height: 120px;
     width: 100%;
@@ -366,14 +375,18 @@
   
   /* The text "connect with me on socials" */
   .socialsText {
-    text-align: right;
-    margin-right: 200px;
+    margin-left: -300px;
   }
   
   /* Tbe "connect with me on socials" arrow */
   .curlyArrow {
     width: 100px;
     transform: rotate(20deg);
+  }
+
+  .email {
+    font-size: 25px;
+    display: block;
   }
 
   // syntax: @media only screen and (min-width: 1440px) and (max-width: )

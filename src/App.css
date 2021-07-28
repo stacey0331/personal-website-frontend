@@ -29,6 +29,14 @@ p {
   margin-right: 25%;
 }
 
+.portfolioPage {
+  min-height: 83vh;
+}
+
+.contactMePage {
+  min-height: 77vh;
+}
+
 button {
   border: none;
   padding: 15px 30px 15px 30px;
@@ -169,6 +177,7 @@ a:hover {
 }
 
 .footer {
+  position: relative;
   background-color: #EDD9FF;
   height: 120px;
   width: 100%;
@@ -355,14 +364,18 @@ input:focus, textarea:focus {
 
 /* The text "connect with me on socials" */
 .socialsText {
-  text-align: right;
-  margin-right: 200px;
+  margin-left: -300px;
 }
 
 /* Tbe "connect with me on socials" arrow */
 .curlyArrow {
   width: 100px;
   transform: rotate(20deg);
+}
+
+.email {
+  font-size: 25px;
+  display: block;
 }
 
 @media only screen and (min-width: 1441px) {
